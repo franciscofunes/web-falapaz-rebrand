@@ -33,6 +33,31 @@
   <!-- Core Stylesheet -->
   <link rel="stylesheet" href="style.css">
 
+  <!-- Firebase data-->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyColJliOOc9d5bKPTteQqFpr5kGp0OH1-A",
+    authDomain: "web-falapaz-rebrand.firebaseapp.com",
+    databaseURL: "https://web-falapaz-rebrand.firebaseio.com",
+    projectId: "web-falapaz-rebrand",
+    storageBucket: "web-falapaz-rebrand.appspot.com",
+    messagingSenderId: "1043282770704",
+    appId: "1:1043282770704:web:4a4e537cde7d5663e38395",
+    measurementId: "G-4EBP2B0ZSG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </head>
 
 <body>
@@ -52,7 +77,7 @@
           <!-- Top Content -->
           <div class="col-6 col-md-9 col-lg-8">
             <div class="top-header-content">
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="Bartolome mitre 4479"><i class="fa fa-map-marker"></i> <span>Bartolomé Mitre 4479 , CABA</span></a>
+              <a href="https://www.google.com/maps/dir//Farmacia+La+Paz,+Bartolom%C3%A9+Mitre+4479,+C1201+ABG,+Buenos+Aires/@-34.6107736,-58.4321376,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x95bccacd72b8a545:0x57efaa057f4a788d!2m2!1d-58.4299489!2d-34.610778!3e0" data-toggle="tooltip" data-placement="bottom" title="Bartolome mitre 4479"><i class="fa fa-map-marker"></i> <span>Bartolomé Mitre 4479 , CABA</span></a>
               <a href="#" data-toggle="tooltip" data-placement="bottom" title="falapaz@yahoo.com.ar"><i class="fa fa-envelope"></i> <span>falapaz@yahoo.com.ar</span></a>
             </div>
           </div>
@@ -289,7 +314,7 @@
             <div class="single-testimonial-slide d-flex align-items-center">
               <!-- Thumbnail -->
               <div class="testimonial-thumb">
-                <img src="./img/bg-img/t2.jpg" alt="">
+                <img src="./img/bg-img/T2.jpg" alt="">
               </div>
               <!-- Content -->
               <div class="testimonial-content">
@@ -302,7 +327,7 @@
             <div class="single-testimonial-slide d-flex align-items-center">
               <!-- Thumbnail -->
               <div class="testimonial-thumb">
-                <img src="./img/bg-img/t1.jpg" alt="">
+                <img src="./img/bg-img/T1.jpg" alt="">
               </div>
               <!-- Content -->
               <div class="testimonial-content">
@@ -315,7 +340,7 @@
             <div class="single-testimonial-slide d-flex align-items-center">
               <!-- Thumbnail -->
               <div class="testimonial-thumb">
-                <img src="./img/bg-img/t3.jpg" alt="medicamentos">
+                <img src="./img/bg-img/T3.jpg" alt="medicamentos">
               </div>
               <!-- Content -->
               <div class="testimonial-content">
