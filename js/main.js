@@ -21,7 +21,7 @@ $('#contactForm').submit(function(e) {
     newMessageRef.set({
         name: $('.fullname').val(),
         email: $('.email').val(),
-        subject: $('.subject').val(),
+        subject: $('.telephone').val(),
         message: $('.message').val()
     });
  
