@@ -420,10 +420,10 @@ ul {
     background-color: transparent;
     color: #72ad51; }
   .dento-btn.btn-2:focus, .dento-btn.btn-2:hover {
-    background-color: #ffffff;
+    background-color: #ffffffd7;
     color: #72ad51; }
   .dento-btn.booking-btn {
-    color: #ffffff !important;
+    color: #ffffffde !important;
     font-weight: 600;
     min-width: 140px;
     height: 40px;
@@ -432,7 +432,7 @@ ul {
     .dento-btn.booking-btn:focus, .dento-btn.booking-btn:hover {
       font-size: 12px;
       font-weight: 600;
-      background-color: #ffffff;
+      background-color: #fafdc9;
       color: #72ad51 !important; }
 
 .header-area {
@@ -640,10 +640,10 @@ ul {
       line-height: 1.8;
       font-style: italic;
       margin-bottom: 15px;
-      color: #ffffff; }
+      color: #000000; }
     .single-testimonial-slide .testimonial-content h6 {
       font-weight: 300;
-      color: #ffffff; }
+      color: #000000; }
     .single-testimonial-slide .testimonial-content p {
       margin-bottom: 0;
       color: #ffffff; }
